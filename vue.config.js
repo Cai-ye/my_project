@@ -23,17 +23,18 @@ module.exports = {
       maskIcon: 'favicon.ico',
       msTileImage: 'favicon.ico'
     }
-  },
-  module: {
-    rules:[
-      {
-        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
-        loader: 'url-loader',
-        options: {
-            limit: 10000
-            // name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
-        }
-    }]
-  },
+  }
+  // ,
+  // module: {
+  //   rules:[
+  //     {
+  //       test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+  //       loader: 'url-loader',
+  //       options: {
+  //           limit: 10000
+  //           // name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
+  //       }
+  //   }]
+  // },
   
 }
