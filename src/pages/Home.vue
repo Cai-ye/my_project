@@ -1,6 +1,8 @@
 <template>
     <div class='home'>
        사랑이 떠나가요
+       사랑이 떠나가요
+       사랑이 떠나가요
     </div>
 </template>
 <script>
