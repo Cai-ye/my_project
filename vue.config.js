@@ -10,7 +10,7 @@ module.exports = {
     // it can be accessed in index.html to inject the correct title.
     resolve: {
       alias: {
-        imgs: resolve("src/assets/imgs"),
+        imgs: resolve("src/assets"),
         "@": resolve("src"),
       },
     },

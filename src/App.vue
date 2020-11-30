@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    <Home />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Home from './pages/Home'
+// import Home from "./pages/Home";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
-}
+    // Home,
+  },
+};
 </script>
 
 <style>
-@import './common/font/font.css';
+@import "./common/font/font.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
